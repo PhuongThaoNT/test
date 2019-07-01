@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67 67" width="67" height="67">
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="33.5" y1="60.155" x2="33.5" y2="6.845">
+			<stop offset="0" stop-color="#ff6000"  />
+			<stop offset="1" stop-color="#ffb100"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+	</style>
+	<g id="Header">
+		<g id="Logo">
+			<path id="Shape 1" fill-rule="evenodd" class="shp0" d="M24.84 2.18C36.78 -1.13 49.01 2.69 57.01 11.06C50.51 7.65 42.74 6.61 35.1 8.72C19.13 13.13 9.77 29.66 14.18 45.63C16.92 55.53 24.32 62.9 33.35 66.01C19.15 65.95 6.15 56.52 2.18 42.16C-2.61 24.86 7.54 6.96 24.84 2.18Z" />
+		</g>
+	</g>
+</svg>

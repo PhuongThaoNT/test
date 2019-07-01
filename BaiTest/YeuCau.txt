@@ -1,0 +1,5 @@
+- Code tay, không sử dụng bất kì framework nào cho HTML/CSS
+- Sử dụng html5 / css3
+- Viết Slider (3 vị trí có trong design) bằng javascript thuần. Chỉ viết đơn giản hiệu ứng slide left, right, click pagination cho single item
+- Responsive (tự do responsive)
+- Dùng css3 nhiều nhất có thể (ưu tiên viết sass)

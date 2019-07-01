@@ -1,0 +1,45 @@
+body {
+    background-color: #efefef !important;
+}
+
+.header-img {
+    width: 65px;
+    height: 65px;
+    vertical-align: middle;
+}
+
+.header-title {
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #000000;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.search-section {
+    float: right;
+}
+
+.nagivation-section {
+    margin-top: 20px;
+    overflow: hidden;
+    background-image: url("./../img/navigation-background.svg");
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nagivation-section nav {
+    transform: translateY(50%);
+}
+
+.nagivation-section a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
