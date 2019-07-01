@@ -5,10 +5,24 @@ body {
 
 .new-event-layer, .partner-layer{
   background-image:  url("./../img/welcome_section_background.png");
-  display: table-caption;
+  
   width: 100%;
   background-size: cover;
   padding: 10px ;
+}
+
+.new-event-layer{
+  display: table-caption;
+}
+
+.partner-layer{}
+
+.partner-layer .row{
+  margin: 0 40px;
+}
+.partner-layer .row img {
+  width: 100px;
+  height: 70px;
 }
 
 .new-event-title, .parten-title{
