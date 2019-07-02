@@ -2,24 +2,22 @@
 <html>
 
 <head>
-    <title>The Entry test</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>The Entry test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-    <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
 
 <body class="demo">
-    <iframe src="./header/header.html" name="iframe_a" style="border-style: none;width: 100%"></iframe>
-    <div class="test"></div>
-    <iframe src="./welcome-page/welcome-page.html" name="iframe_a" frameborder="0" scrolling="no" onload="resizeIframe(this)" ></iframe>
-    <iframe src="./footer/footer.html" name="iframe_a" style="border-style: none;width: 100%" frameborder="0" style="overflow: hidden; height: 100%;
-    width: 100%; position: absolute;"></iframe>
-<script>
-        function resizeIframe(obj) {
-          obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-        }
-      </script>
+  <iframe src="./header/header.html" name="iframe_a" class="header-frame"></iframe>
+
+  <iframe src="./welcome-page/welcome-page.html" name="iframe_a" frameborder="0" class="welcome-frame"></iframe>
+
+  <iframe src="./new-event/new-event-layer.html" name="iframe_a" frameborder="0" class="event-partner-frame"></iframe>
+
+  <iframe src="./footer/footer.html" name="iframe_a" frameborder="0" class="footer-frame"></iframe>
 </body>
 
 </html>
