@@ -3,7 +3,7 @@ body {
 }
 
 .footer-section {
-    background-image: url("./../img/welcome_section_background.png");
+    background-image: url("./../style/img/welcome_section_background.png");
     background-size: cover;
     margin: 0px;
 }

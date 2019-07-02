@@ -59,7 +59,7 @@ body {
 .nagivation-section {
     margin-top: 20px;
     overflow: hidden;
-    background-image: url("./../img/navigation-background.svg");
+    background-image: url("./../style/img/navigation-background.svg");
     height: 40px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,3 +92,14 @@ body {
         height: auto;
     }
 }
+@media screen and (max-width: 570px) {
+.col-md-12 .vertical-line-icon{
+    display: none;
+}
+}
+
+@media screen and (min-width: 992px) {
+    .col-lg-7 {
+      padding: 0 !important;
+    }
+  }

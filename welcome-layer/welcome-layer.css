@@ -1,0 +1,200 @@
+body {
+    background-color: #efefef !important;
+
+}
+
+.welcome-section {
+    background-image: url("./../style/img/welcome_section_background.png");
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.welcome-slide img {
+    width: 150px;
+    height: 100px;
+}
+
+.welcome-title {
+    font-size: 31px;
+    line-height: 25px;
+    color: #ff6900;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+
+.view-more {
+    font-size: 11px;
+    line-height: 16px;
+    font-family: "Arial";
+    text-decoration: underline !important;
+    color: #007bff !important;
+    cursor: pointer;
+  }
+
+/** Css for slideshow*/
+.slideshow-container {
+
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.intro-slide,
+.welcom-slide {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: transparent !important;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prev {
+    background-image: url('./../style/img/icon/pre_button.svg');
+}
+
+.next {
+    background-image: url('./../style/img/icon/next_button.svg');
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot,
+.number-slide {
+    cursor: pointer;
+
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/*css number slide control for introduction slide default */
+.number-slide {
+    height: 22px;
+    width: 22px;
+}
+
+/*css dot control for welcome page default */
+.dot {
+    height: 15px;
+    width: 15px;
+
+}
+
+/*css dot control, number slide control follow active slide change*/
+.active,
+.dot:hover,
+.number-slide:hover {
+    background-image: url('./../style/img/icon/slide_button.png');
+}
+
+
+.slide-desciption-layer .active {
+    height: 24px;
+    width: 24px;
+}
+
+
+.slide-index {
+    float: right;
+    transform: translateX(-100%);
+}
+
+
+.slide-desciption-layer {
+    background-color: #000000;
+    padding: 15px;
+    font-size: 12px;
+    font-family: "Arial";
+    color: #fff;
+}
+
+.slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+/* set slide background for welcome section */
+.slide-1 {
+    background-image: url("./../style/img/welcome_slide2.png");
+}
+
+.slide-2 {
+    background-image: url("./../style/img/header_icon.svg");
+}
+
+.slide-3 {
+    background-image: url("./../style/img/welcome_slide2.png");
+}
+
+.slide-4 {
+    background-image: url("./../style/img/welcome_slide1.png");
+}
+
+.control-slide {
+    float: right;
+    margin-top: 170px;
+}
+
+.fade:not(.show) {
+    opacity: 1;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}

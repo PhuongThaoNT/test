@@ -1,0 +1,39 @@
+@media screen and (max-width: 800px) {
+  .header-frame {
+      height: 300px;
+  }
+
+  .welcome-frame {
+      height: 750px;
+  }
+
+  .event-partner-frame {
+      height: 350px;
+  }
+
+  .footer-frame {
+    height: 300px;
+}
+}
+
+@media screen and (max-width: 570px) {
+  .header-frame {
+      height: 300px;
+  }
+
+  .welcome-frame {
+      height: 920px;
+  }
+
+  .event-partner-frame {
+      height: 750px;
+  }
+
+  .footer-frame {
+    height: 450px;
+}
+}
+
+@media screen and (min-width: 992px) {
+
+}
