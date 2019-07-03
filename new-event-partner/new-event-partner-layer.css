@@ -89,7 +89,7 @@ body {
 
 .pre-button,
 .next-button {
-  transform: translateY(20%);
+  transform: translateY(30%);
   cursor: pointer;
 }
 

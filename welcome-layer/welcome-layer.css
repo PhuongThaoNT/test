@@ -186,6 +186,13 @@ body {
     opacity: 1;
 }
 
+.intro-text-slide {
+    font-size: 11px;
+    line-height: 18px;
+    color: #000000;
+    font-family: "Arial";
+    text-align: left;
+}
 
 .more-text {
     display: none;
