@@ -123,3 +123,22 @@ body {
     opacity: 1
   }
 }
+
+/*css for tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .partner-layer .row img {
+    width: 50px;
+  }
+
+  .col-md-4 {
+    padding: 0 5px;
+  }
+}
+
+/*mobile*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .partner-layer .row img {
+    width: 100%;
+  }
+
+}
