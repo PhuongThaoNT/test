@@ -3,7 +3,7 @@ var slideIndex = 1;
 showSlides(slideIndex, 'intro-slide', 'number-slide', 'intro-text-slide');
 showSlides(slideIndex, 'welcome-slide', 'dot');
 
-showSlide(slideIndex, 'partner-list');
+showSlides(slideIndex, 'partner-list');
 
 function plusSlides(n, pageCurrentClass, numberPageCurrentClass, introSlideClass) {
     showSlides(slideIndex += n, pageCurrentClass, numberPageCurrentClass, introSlideClass);
@@ -16,8 +16,8 @@ function currentSlide(n, pageCurrentClass, numberPageCurrentClass, introSlideCla
 function showSlides(n, pageCurrentClass, numberPageCurrentClass, introSlideClass) {
     var i;
     var slides = document.getElementsByClassName(pageCurrentClass);
-    
-    
+    debugger;
+
     if (n > slides.length) {
         slideIndex = 1
     }
@@ -27,30 +27,39 @@ function showSlides(n, pageCurrentClass, numberPageCurrentClass, introSlideClass
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-   
+
     activeOrDisableCurrentNumberPageControl(numberPageCurrentClass);
-   
+
     checkToDisplayOrNoneAnElement(introSlideClass);
-    slides[slideIndex - 1].style.display = "block";
+    if (slides[slideIndex - 1]) {
+        slides[slideIndex - 1].style.display = "block";
+    }
+
 }
 
 function activeOrDisableCurrentNumberPageControl(numberPageCurrentClass) {
+    debugger;
     var dots = document.getElementsByClassName(numberPageCurrentClass);
-    if(numberPageCurrentClass) {
-        
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    dots[slideIndex - 1].className += " active";
+    if (numberPageCurrentClass) {
+        for (var i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        if (dots[slideIndex - 1]) {
+            dots[slideIndex - 1].className += " active";
+        }
+
     }
 }
 
-function checkToDisplayOrNoneAnElement(element){
-    if(element) {
+function checkToDisplayOrNoneAnElement(element) {
+    if (element) {
         var elements = document.getElementsByClassName(element);
-        for (i = 0; i < elements.length; i++) {
+        for (var i = 0; i < elements.length; i++) {
             elements[i].style.display = "none";
         }
-        elements[slideIndex - 1].style.display = "block";
+        if (elements[slideIndex - 1]) {
+            elements[slideIndex - 1].style.display = "block";
+        }
+
     }
 }

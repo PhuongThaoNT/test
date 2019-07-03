@@ -83,11 +83,12 @@ body {
 }
 
 
-.slide-partner{
+.slide-partner {
   display: inline-flex;
 }
 
-.pre-button, .next-button{
+.pre-button,
+.next-button {
   transform: translateY(20%);
   cursor: pointer;
 }
@@ -98,25 +99,25 @@ body {
 
 /* Hide the images by default */
 .partner-list {
-    display: none;
+  display: none;
 }
 
 @-webkit-keyframes fade {
   from {
-      opacity: .4
+    opacity: .4
   }
 
   to {
-      opacity: 1
+    opacity: 1
   }
 }
 
 @keyframes fade {
   from {
-      opacity: .4
+    opacity: .4
   }
 
   to {
-      opacity: 1
+    opacity: 1
   }
 }

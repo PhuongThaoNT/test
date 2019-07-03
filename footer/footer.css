@@ -85,3 +85,15 @@ a {
 .input-group {
     padding-top: 15px;
 }
+
+/*css for tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+    .copy-right,
+    .copy-right-section,
+    .quick-navigate {
+        text-align: center;
+        float: none;
+    }
+}

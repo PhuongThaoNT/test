@@ -79,10 +79,7 @@ body {
 }
 
 /*css for tablet*/
-@media screen and (max-width: 800px) {
-    .header-frame {
-        height: 300px;
-    }
+@media (min-width: 768px) and (max-width: 1024px) {
 
     .nagivation-section nav {
         transform: none;
@@ -91,15 +88,34 @@ body {
     .nagivation-section {
         height: auto;
     }
-}
-@media screen and (max-width: 570px) {
-.col-md-12 .vertical-line-icon{
-    display: none;
-}
+
+    .header-title {
+        font-size: 20px;
+    }
 }
 
-@media screen and (min-width: 992px) {
-    .col-lg-7 {
-      padding: 0 !important;
+/* css mobile */
+@media screen and (max-width: 570px) {
+    .vertical-line-icon {
+        display: none;
     }
-  }
+
+    .flag-section {
+        text-align: center;
+    }
+
+    .nagivation-section nav {
+        transform: none;
+    }
+
+    .nagivation-section {
+
+        height: unset;
+
+    }
+
+    @media screen and (min-width: 992px) {
+        .col-lg-7 {
+            padding: 0 !important;
+        }
+    }

@@ -29,7 +29,7 @@ body {
     text-decoration: underline !important;
     color: #007bff !important;
     cursor: pointer;
-  }
+}
 
 /** Css for slideshow*/
 .slideshow-container {
@@ -124,6 +124,8 @@ body {
 .dot:hover,
 .number-slide:hover {
     background-image: url('./../style/img/icon/slide_button.png');
+    background-size: cover;
+
 }
 
 
@@ -170,8 +172,13 @@ body {
     background-image: url("./../style/img/welcome_slide1.png");
 }
 
-.control-slide {
+.control-dot-slide,
+.control-number-slide {
     float: right;
+
+}
+
+.control-dot-slide {
     margin-top: 170px;
 }
 
