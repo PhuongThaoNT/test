@@ -82,6 +82,10 @@ a {
     font-weight: bold;
 }
 
+.quick-link {
+    padding-bottom: 15px;
+}
+
 .input-group {
     padding-top: 15px;
 }

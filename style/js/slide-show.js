@@ -16,7 +16,6 @@ function currentSlide(n, pageCurrentClass, numberPageCurrentClass, introSlideCla
 function showSlides(n, pageCurrentClass, numberPageCurrentClass, introSlideClass) {
     var i;
     var slides = document.getElementsByClassName(pageCurrentClass);
-    debugger;
 
     if (n > slides.length) {
         slideIndex = 1
@@ -38,9 +37,9 @@ function showSlides(n, pageCurrentClass, numberPageCurrentClass, introSlideClass
 }
 
 function activeOrDisableCurrentNumberPageControl(numberPageCurrentClass) {
-    debugger;
-    var dots = document.getElementsByClassName(numberPageCurrentClass);
+
     if (numberPageCurrentClass) {
+        var dots = document.getElementsByClassName(numberPageCurrentClass);
         for (var i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
         }

@@ -186,6 +186,11 @@ body {
     opacity: 1;
 }
 
+
+.more-text {
+    display: none;
+}
+
 @-webkit-keyframes fade {
     from {
         opacity: .4
